@@ -1,0 +1,52 @@
+.intro-header {
+    height: unset !important;
+  }
+  .top-nav-collapse {
+    background-color: #78909c !important;
+  }
+  .view {
+    height: 100vh !important;
+  }
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #78909c !important;
+    }
+  }
+  h1 {
+    letter-spacing: 8px;
+  }
+  h5 {
+    letter-spacing: 3px;
+  }
+  .hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+  }
+  @media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+      height: 700px;
+    }
+  }
+  html,
+  body,
+  header,
+  .view {
+      height: 100%;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: "Museo Sans Cyrillic", -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+      line-height: 1.35;
+  
+  }
+    
